@@ -4,10 +4,10 @@ import { DigitalProduct } from "./models/DigitalProduct";
 import { calculateTax } from "./utils/taxCalculator";
 
 // Create instances of PhysicalProduct and DigitalProduct
-const laptop = new PhysicalProduct("PHY-001", "Laptop", 999.99, 2.5);
-const headphones = new PhysicalProduct("PHY-002", "Wireless Headphones", 149.99, 0.3);
-const ebook = new DigitalProduct("DIG-001", "TypeScript Handbook", 29.99, 15);
-const software = new DigitalProduct("DIG-002", "Photo Editor License", 59.99, 500);
+const laptop = new PhysicalProduct("PHY-01", "Laptop", 999.99, 2.5);
+const headphones = new PhysicalProduct("PHY-02", "Wireless Headphones", 149.99, 0.3);
+const ebook = new DigitalProduct("DIG-01", "TypeScript Handbook", 29.99, 15);
+const software = new DigitalProduct("DIG-02", "Photo Editor License", 59.99, 500);
 
 // Store all products in a single array — polymorphism in action
 const inventory: Product[] = [laptop, headphones, ebook, software];
